@@ -34,3 +34,11 @@ Clicking the button would open a new tab when building with Webpack 4 only.
 When building with Webpack 5 the new tab does not open when you click the button. The popup gets blocked.
 
 Note: The issue only occurs on Safari. Running the same code on Chrome/Firefox works as expected on both Webpack 4 & Webpack 5.
+
+## Running with Webpack 4
+
+https://github.com/samiashi/react-webpack-debug/assets/10187761/cb98d2cd-70bb-4241-8921-d9355e5b9ab0
+
+## Running with Webpack 5
+
+https://github.com/samiashi/react-webpack-debug/assets/10187761/db8788a8-b698-4b9f-9b60-939ee11126af
