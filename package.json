@@ -1,0 +1,29 @@
+{
+    "name": "react_webpack",
+    "version": "1.0.0",
+    "main": "index.js",
+    "engines": {
+        "node": ">=18.x",
+        "npm": ">=9.x"
+    },
+    "scripts": {
+        "start": "webpack-dev-server --mode development --open --hot",
+        "build": "export NODE_OPTIONS=--openssl-legacy-provider; webpack --mode production"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.23.9",
+        "@babel/preset-env": "^7.23.9",
+        "@babel/preset-react": "^7.23.3",
+        "babel-loader": "^8.3.0",
+        "css-loader": "^5.2.7",
+        "html-webpack-plugin": "^4.5.2",
+        "style-loader": "^2.0.0",
+        "webpack": "^4.47.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.15.1"
+    }
+}
