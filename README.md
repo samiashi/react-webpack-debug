@@ -31,9 +31,9 @@ Clicking the button would open a new tab when building with Webpack 4 & Webpack 
 ## Reality
 
 Clicking the button would open a new tab when building with Webpack 4 only.
-When building with Webpack 5 the new tab does not open when you click the button. The popup gets blocked.
+When building with Webpack 5 the new tab does not open. The popup gets blocked.
 
-Note: The issue only occurs on Safari. Running the same code on Chrome/Firefox works as expected on both Webpack 4 & Webpack 5.
+Note: The issue seems to only occur on Safari. Running the same code on Chrome/Firefox Desktop works as expected on both Webpack 4 & Webpack 5.
 
 ## Running with Webpack 4
 
